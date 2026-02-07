@@ -1,3 +1,18 @@
+
+# python3 /Users/sandesh04/Desktop/Projects/ArUco/apriltag_object_measurement.py \
+#   --source /Users/sandesh04/Desktop/Projects/ArUco/Aruco_Images/Aruco_Images/images_aruco_max_multi/image_1.jpeg \
+#   --marker-size-mm 53 \
+#   --marker-type apriltag \
+#   --apriltag-family tag36h11 \
+#   --min-object-area 2500 \
+#   --min-distance-factor 1.8 \
+#   --min-point-distance-factor 1.25 \
+#   --marker-pad-factor 0.9 \
+#   --max-marker-overlap 0.03
+
+
+
+
 import argparse
 import os
 from typing import List, Optional, Tuple
